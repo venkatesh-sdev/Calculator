@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(45deg, rgb(174, 0, 255), #9c06dd);
+    background: linear-gradient(45deg, rgb(84, 84, 84), #3b3b3b);
 }
 
 .calculator{
@@ -21,7 +21,7 @@ body{
     padding: 20px;
     border-radius: 16px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgba(30, 66, 139, 0.5);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -35,11 +35,11 @@ input{
     font-size: 40px;
     text-align: right;
     cursor: pointer;
-    color: #ffffff;
+    color: #dddddd;
 }
 
 input::placeholder{
-    color: #ffffff;
+    color: #3d3d3d;
 }
 
 button{
@@ -49,10 +49,10 @@ button{
     margin: 10px;
     border-radius: 50%;
     background: transparent;
-    color: #ffffff;
+    color: #fafafa;
     font-size: 20px;
-    box-shadow: inset 8px 8px 10px rgba(193, 4, 245, 0.534) ,2px 2px 5px rgba(206, 194, 210, 0.534),
-    inset -8px -8px 15px rgba(33, 44, 42, 0.486);
+    box-shadow: inset 4px 4px 10px rgba(176, 176, 176, 0.534) ,
+    inset -8px -8px 15px rgba(163, 163, 163, 0.486);
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -64,6 +64,7 @@ button:active{
 
 .equalBtn{
     background-color: #fb7c14;
+    box-shadow: inset 5px 5px 5px rgba(242, 156, 28, 0.715);
 }
 
 .operator{
